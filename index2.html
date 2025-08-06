@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCTV Service & Installation - SOS Network Services</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="bg-gray-900 text-white shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center flex-wrap">
+            <!-- Logo -->
+            <a href="#" class="block"> <!-- Simplified classes for the logo container -->
+                <img src="https://i.ibb.co/qFyfYSns/SOS-NETWORK-removebg-preview.png" alt="SOS NETWORK Services Logo" class="h-10 sm:h-12 md:h-14 lg:h-16 w-auto rounded-md">
+            </a>
+
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden focus:outline-none" aria-label="Toggle menu" id="mobile-menu-button">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+
+            <!-- Navigation Links - Desktop -->
+            <ul class="hidden md:flex space-x-8 text-lg font-medium">
+                <li><a href="#" class="hover:text-teal-400 transition-colors duration-300 p-2 rounded-md">Home</a></li>
+                <li><a href="#services" class="hover:text-teal-400 transition-colors duration-300 p-2 rounded-md">CCTV Services</a></li>
+                <li><a href="#job-services" class="hover:text-teal-400 transition-colors duration-300 p-2 rounded-md">Job Services</a></li>
+                <li><a href="#features-support" class="hover:text-teal-400 transition-colors duration-300 p-2 rounded-md">Features & Support</a></li>
+                <li><a href="#about-us" class="hover:text-teal-400 transition-colors duration-300 p-2 rounded-md">About Us</a></li>
+                <li><a href="#projects" class="hover:text-teal-400 transition-colors duration-300 p-2 rounded-md">Projects</a></li>
+                <li><a href="#contact" class="hover:text-teal-400 transition-colors duration-300 p-2 rounded-md">Contact</a></li>
+            </ul>
+
+            <!-- Navigation Links - Mobile -->
+            <ul id="mobile-menu" class="hidden md:hidden w-full text-center mt-4 space-y-4 text-lg font-medium bg-gray-800 rounded-lg py-4">
+                <li><a href="#" class="block py-2 px-4 hover:bg-gray-700 rounded-md">Home</a></li>
+                <li><a href="#services" class="block py-2 px-4 hover:bg-gray-700 rounded-md">CCTV Services</a></li>
+                <li><a href="#job-services" class="block py-2 px-4 hover:bg-gray-700 rounded-md">Job Services</a></li>
+                <li><a href="#features-support" class="block py-2 px-4 hover:bg-gray-700 rounded-md">Features & Support</a></li>
+                <li><a href="#about-us" class="block py-2 px-4 hover:bg-gray-700 rounded-md">About Us</a></li>
+                <li><a href="#projects" class="block py-2 px-4 hover:bg-gray-700 rounded-md">Projects</a></li>
+                <li><a href="#contact" class="block py-2 px-4 hover:bg-gray-700 rounded-md">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white py-24 md:py-36 text-center shadow-inner relative">
+        <div class="container mx-auto px-4 relative z-20"> <!-- Increased z-index to ensure text is above wave -->
+            <!-- Main Heading -->
+            <div class="elementor-widget-container mb-6">
+                <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-2 animate-zoom-in">
+                    CCTV<br>Camera <br>Service
+                </h1>
+            </div>
+            <!-- Sub-heading 1 -->
+            <div class="elementor-widget-container mb-4">
+                <h2 class="text-3xl md:text-4xl font-semibold opacity-90 animate-zoom-in animate-delay-1">
+                    Comprehensive Setup &amp; Installation
+                </h2>
+            </div>
+            <!-- Sub-heading 2 -->
+            <div class="elementor-widget-container mb-10">
+                <h2 class="text-xl md:text-2xl max-w-3xl mx-auto opacity-80 animate-zoom-in animate-delay-2">
+                    An effective CCTV Camera System to decrease <br>crime rates and keep you safe.
+                </h2>
+            </div>
+
+            <a href="#contact" class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-4 px-8 rounded-full text-xl shadow-lg transform hover:scale-105 transition-all duration-300 inline-block mt-8">
+                Get a Free Quote Today!
+            </a>
+        </div>
+
+        <!-- Wave Shape Divider at the Bottom -->
+        <div class="hero-wave-bottom">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path class="elementor-shape-fill" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3
+                c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3
+                c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="text-center md:text-left">
+                <h2 class="text-4xl font-extrabold text-gray-900 mb-6">About SOS Network Services</h2>
+                <p class="text-gray-700 leading-relaxed text-lg mb-4">
+                    SOS Network Services (002290507-D) is a leading provider of comprehensive security and electrical solutions. With years of experience, we are dedicated to delivering reliable, high-quality services that ensure the safety and peace of mind of our clients. Our team of expert technicians is committed to excellence in every project, from sophisticated CCTV installations to intricate electrical wiring.
+                </p>
+                <p class="text-gray-700 leading-relaxed text-lg mb-6">
+                    We pride ourselves on offering tailored solutions that meet the unique needs of each client, whether it's for residential, commercial, or industrial applications. Our commitment to quality, customer satisfaction, and continuous support sets us apart in the industry.
+                </p>
+                <a href="#contact" class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-6 rounded-full shadow-md transform hover:scale-105 transition-all duration-300">
+                    Learn More & Contact Us
+                </a>
+            </div>
+            <div class="flex justify-center items-center">
+                <img src="https://placehold.co/600x400/1F2937/F3F4F6?text=About+Us+Image" alt="About Us" class="rounded-xl shadow-xl w-full max-w-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Services Section -->
+    <section id="job-services" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-extrabold text-gray-900 text-center mb-12">Our Specialized Job Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Job Service Item 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="text-teal-500 text-5xl mb-6 text-center">
+                        <svg class="w-16 h-16 mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-.25-13.75h-.5c-.41 0-.75.34-.75.75v3.25h-2.25c-.41 0-.75.34-.75.75s.34.75.75.75h3v2.25c0 .41.34.75.75.75s.75-.34.75-.75v-3.25h2.25c.41 0 .75-.34.75-.75s-.34-.75-.75-.75h-3V6.25c0-.41-.34-.75-.75-.75z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Single Phase & Three Phase Wiring</h3>
+                    <p class="text-gray-600 leading-relaxed text-center">
+                        Comprehensive electrical wiring solutions for both residential (single phase) and industrial (three phase) requirements. Our certified electricians ensure safety and compliance.
+                    </p>
+                </div>
+
+                <!-- Job Service Item 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="text-teal-500 text-5xl mb-6 text-center">
+                        <svg class="w-16 h-16 mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"></path>
+                            <path d="M11.25 15.75h1.5c.41 0 .75-.34.75-.75V8.25c0-.41-.34-.75-.75-.75h-1.5c-.41 0-.75.34-.75.75v6.75c0 .41.34.75.75.75z"></path>
+                            <path d="M15.75 15.75h1.5c.41 0 .75-.34.75-.75V8.25c0-.41-.34-.75-.75-.75h-1.5c-.41 0-.75.34-.75.75v6.75c0 .41.34.75.75.75zM6.75 15.75h1.5c.41 0 .75-.34.75-.75V8.25c0-.41-.34-.75-.75-.75h-1.5c-.41 0-.75.34-.75.75v6.75c0 .41.34.75.75.75z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Auto Gate System Installation</h3>
+                    <p class="text-gray-600 leading-relaxed text-center">
+                        Installation and maintenance of automated gate systems for enhanced security and convenience at your property entrance.
+                    </p>
+                </div>
+
+                <!-- Job Service Item 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="text-teal-500 text-5xl mb-6 text-center">
+                        <svg class="w-16 h-16 mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 11h-4V7c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v4H2v2h4v4c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2v-4h4v-2zM8 7h8v4H8V7zm8 10h-8v-4h8v4z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Aircond System Wiring</h3>
+                    <p class="text-gray-600 leading-relaxed text-center">
+                        Professional wiring services for air conditioning systems, ensuring efficient and safe operation for residential and commercial units.
+                    </p>
+                </div>
+
+                <!-- Job Service Item 4 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="text-teal-500 text-5xl mb-6 text-center">
+                        <svg class="w-16 h-16 mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 16c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7zm1-11H7v2h4v-2zm-4 4h4v2H7v-2zm8 0h-4v2h4v-2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">All Kind System Traffic Light</h3>
+                    <p class="text-gray-600 leading-relaxed text-center">
+                        Installation, repair, and maintenance for various types of traffic light systems, ensuring smooth traffic flow and safety.
+                    </p>
+                </div>
+
+                <!-- Job Service Item 5 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="text-teal-500 text-5xl mb-6 text-center">
+                        <svg class="w-16 h-16 mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 17.5c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H7c-.55 0-1 .45-1 1v12.5c0 .55.45 1 1 1h1.5v2.25c0 .41.34.75.75.75h3.5c.41 0 .75-.34.75-.75V17.5H17zM8.5 15.5V5h7v10.5h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Supply All Kind Electric & Electronic Equipment</h3>
+                    <p class="text-gray-600 leading-relaxed text-center">
+                        We supply a comprehensive range of high-quality electrical and electronic equipment for various applications, ensuring reliability and performance.
+                    </p>
+                </div>
+
+                <!-- Job Service Item 6 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="text-teal-500 text-5xl mb-6 text-center">
+                        <svg class="w-16 h-16 mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM12.75 7.5h-1.5c-.41 0-.75.34-.75.75v6.5c0 .41.34.75.75.75h1.5c.41 0 .75-.34.75-.75v-6.5c0-.41-.34-.75-.75-.75z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Supply Equipment or Traffic Light</h3>
+                    <p class="text-gray-600 leading-relaxed text-center">
+                        Provision of specialized equipment and complete traffic light systems tailored to infrastructure and safety needs.
+                    </p>
+                </div>
+
+                 <!-- Job Service Item 7 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="text-teal-500 text-5xl mb-6 text-center">
+                        <svg class="w-16 h-16 mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">CCTV Setup & Wiring</h3>
+                    <p class="text-gray-600 leading-relaxed text-center">
+                        Complete CCTV system setup including camera placement, wiring, configuration, and integration for optimal surveillance.
+                    </p>
+                </div>
+
+                <!-- Job Service Item 8 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="text-teal-500 text-5xl mb-6 text-center">
+                        <svg class="w-16 h-16 mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.76-7 8.95V12H5V6.3l7-3.5 7 3.5v4.69z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Alarm System Installation</h3>
+                    <p class="text-gray-600 leading-relaxed text-center">
+                        Installation of advanced alarm systems, custom-designed to provide robust security and instant alerts for any unauthorized access.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Comprehensive CCTV Services Section (Specific Camera Types) -->
+    <section id="services" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-extrabold text-gray-900 text-center mb-12">Specialized CCTV Camera Solutions</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Service Item: 360° Fisheye Camera -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="text-teal-500 text-5xl mb-6 text-center">
+                        <!-- Icon for Fisheye Camera - example: a wide-angle lens or circular view -->
+                        <svg class="w-16 h-16 mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-4.75-7.75c.41 0 .75-.34.75-.75s-.34-.75-.75-.75H5.5c-.41 0-.75.34-.75.75s.34.75.75.75h1.75zm12.5 0c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h1.75c.41 0 .75.34.75.75s-.34.75-.75.75h-1.75zM12 6.25c.41 0 .75-.34.75-.75V4.5c0-.41-.34-.75-.75-.75s-.75.34-.75.75v1.75c0 .41.34.75.75.75zM12 17.75c-.41 0-.75.34-.75.75v1.75c0 .41.34.75.75.75s.75-.34.75-.75v-1.75c0-.41-.34-.75-.75-.75z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">360° Fisheye Camera</h3>
+                    <p class="text-gray-600 leading-relaxed text-center">
+                        Ultra-wide angle lens that creates dynamic viewing angles including panoramic 180-degree and 360-degree views. Fisheye cameras are capable of saving cost without having to install additional cameras for potential blind spots, providing greater awareness with fewer devices.
+                    </p>
+                </div>
+
+                <!-- Service Item: Dome CCTV Camera -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="text-teal-500 text-5xl mb-6 text-center">
+                        <!-- Icon for Dome Camera - example: a simple dome shape -->
+                        <svg class="w-16 h-16 mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM12 6c-2.76 0-5 2.24-5 5h10c0-2.76-2.24-5-5-5z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Dome CCTV Camera</h3>
+                    <p class="text-gray-600 leading-relaxed text-center">
+                        Built for both indoor and outdoor security surveillance, dome cameras are among the most commonly used types. These CCTV cameras are convenient to install, discreet, and often feature IR night vision for clear footage in low-light conditions.
+                    </p>
+                </div>
+
+                <!-- Service Item: Sound Audio Camera -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="text-teal-500 text-5xl mb-6 text-center">
+                        <!-- Icon for Audio Camera - example: a microphone or sound waves -->
+                        <svg class="w-16 h-16 mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3s-3 1.34-3 3v6c0 1.66 1.34 3 3 3zm5.3-3c0 3.25-2.52 5.8-5.3 5.8S6.7 14.25 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.49 6-3.31 6-6.72h-1.7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Sound Audio Camera</h3>
+                    <p class="text-gray-600 leading-relaxed text-center">
+                        Enhance your CCTV system with integrated live sound recording alongside visual images. Our audio CCTV cameras are built to be flexible and can be placed virtually anywhere without the need for additional complex cables or connectors, providing a more comprehensive surveillance solution.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features & Support Section -->
+    <section id="features-support" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-extrabold text-gray-900 text-center mb-12">Key Features & Dedicated Support from SOS Network Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- Feature: SMART AI VIDEO CAPTURE -->
+                <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-teal-600 text-4xl mb-4">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 5H4c-1.1 0-1.99.9-1.99 2L2 17c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm-9 3h3v2h-3V8zm-5 0h3v2H6V8zm0 4h3v2H6v-2zm5 0h3v2h-3v-2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">SMART AI VIDEO CAPTURE</h3>
+                    <p class="text-gray-600 mb-3">Analyze your recorded video and process the data into useful, actionable information, enabling smarter decision-making and enhanced security responses.</p>
+                    <a href="#" class="text-teal-600 hover:text-teal-800 font-medium">More Info</a>
+                </div>
+
+                <!-- Feature: MAINTENANCE SUPPORT -->
+                <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-teal-600 text-4xl mb-4">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13 3c-4.97 0-9 4.03-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.51 0-2.91-.49-4.06-1.3l-1.42 1.42C8.25 20.29 10.02 21 12 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 16v-2h-3v-3H9V8h2V6h2v2h3v3h-3v3z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">MAINTENANCE SUPPORT</h3>
+                    <p class="text-gray-600 mb-3">We provide scheduled maintenance to keep your equipment working at its best. To ensure your CCTV cameras are working in best shape, timely maintenance is required. Our professional team helps you verify the condition of CCTV surveillance system housing, wiring, cabling, and recording equipment to prevent any damages.</p>
+                    <a href="#" class="text-teal-600 hover:text-teal-800 font-medium">More Info</a>
+                </div>
+
+                <!-- Feature: MOBILE COMPATABILITY -->
+                <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-teal-600 text-4xl mb-4">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">MOBILE COMPATIBILITY</h3>
+                    <p class="text-gray-600 mb-3">Stay connected wherever you are with your mobile devices. Our systems offer seamless mobile compatibility, allowing you to monitor your premises remotely with ease and convenience.</p>
+                    <a href="#" class="text-teal-600 hover:text-teal-800 font-medium">More Info</a>
+                </div>
+
+                <!-- Feature: RELIABLE & EXPERIENCED -->
+                <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-teal-600 text-4xl mb-4">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">RELIABLE & EXPERIENCED</h3>
+                    <p class="text-gray-600 mb-3">Our team is certified in providing planning, installation, and maintenance for CCTV Surveillance Camera systems. SOS Network Services is trusted in delivering security solutions for residential and commercial properties in Malaysia. Our team is experienced in installing a wide range of cameras, providing the safest and most reliable solutions to safeguard your family and premises.</p>
+                    <a href="#" class="text-teal-600 hover:text-teal-800 font-medium">More Info</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-extrabold text-gray-900 text-center mb-12">Why Choose SOS Network Services?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- Feature Item 1 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-teal-600 text-4xl mb-4">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Expert Technicians</h3>
+                    <p class="text-gray-600">Our team consists of highly trained and certified professionals with extensive experience in security and electrical systems. We ensure precision and expertise in every installation and repair.</p>
+                </div>
+
+                <!-- Feature Item 2 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-teal-600 text-4xl mb-4">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Quality Assurance</h3>
+                    <p class="text-gray-600">We are committed to delivering unparalleled quality. We source and use only premium, industry-leading products and adhere to the highest standards of installation and service excellence.</p>
+                </div>
+
+                <!-- Feature Item 3 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-teal-600 text-4xl mb-4">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6-2h-4v2h4V4zm-6 8V8h12v4H8z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Tailored Solutions</h3>
+                    <p class="text-gray-600">Every client has unique needs. We specialize in designing customized security and electrical solutions that perfectly align with your specific requirements and budget.</p>
+                </div>
+
+                <!-- Feature Item 4 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-teal-600 text-4xl mb-4">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Customer Satisfaction</h3>
+                    <p class="text-gray-600">Your security and peace of mind are at the forefront of everything we do. We strive for 100% customer satisfaction through exceptional service and reliable support.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CCTV Installation Projects Section -->
+    <section id="projects" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-extrabold text-gray-900 text-center mb-12">Our CCTV Installation Projects</h2>
+            <p class="text-gray-700 leading-relaxed text-lg text-center mb-10 max-w-4xl mx-auto">
+                Our technicians deliver comprehensive CCTV camera planning, precise wiring, meticulous cable management, secure termination, optimal mounting, accurate angle adjustment, and efficient NVR recorder setup. We ensure every installation is executed with the highest standards of professionalism and attention to detail.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Image 1 -->
+                <div class="rounded-xl shadow-md overflow-hidden hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                    <img src="https://placehold.co/600x400/2C3E50/ECF0F1?text=Project+1" alt="CCTV Project 1" class="w-full h-auto object-cover">
+                    <div class="p-4 bg-gray-50 text-center">
+                        <h3 class="font-semibold text-gray-800 text-lg">Residential Security Upgrade</h3>
+                        <p class="text-gray-600 text-sm">Enhanced home surveillance system installation.</p>
+                    </div>
+                </div>
+                <!-- Project Image 2 -->
+                <div class="rounded-xl shadow-md overflow-hidden hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                    <img src="https://placehold.co/600x400/34495E/ECF0F1?text=Project+2" alt="CCTV Project 2" class="w-full h-auto object-cover">
+                    <div class="p-4 bg-gray-50 text-center">
+                        <h3 class="font-semibold text-gray-800 text-lg">Commercial Building Coverage</h3>
+                        <p class="text-gray-600 text-sm">Integrated CCTV solution for office premises.</p>
+                    </div>
+                </div>
+                <!-- Project Image 3 -->
+                <div class="rounded-xl shadow-md overflow-hidden hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                    <img src="https://placehold.co/600x400/1ABC9C/ECF0F1?text=Project+3" alt="CCTV Project 3" class="w-full h-auto object-cover">
+                    <div class="p-4 bg-gray-50 text-center">
+                        <h3 class="font-semibold text-gray-800 text-lg">Industrial Site Monitoring</h3>
+                        <p class="text-gray-600 text-sm">Robust surveillance for a large industrial facility.</p>
+                    </div>
+                </div>
+                <!-- Add more project images as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="contact" class="bg-teal-700 text-white py-16 md:py-20 text-center shadow-lg">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-5xl font-extrabold mb-6">
+                Ready to Enhance Your Security?
+            </h2>
+            <p class="text-lg md:text-xl mb-8 opacity-90">
+                Contact us today for a free consultation and let us design the perfect security and electrical solution for you.
+            </p>
+            <a href="mailto:harudin96@gmail.com" class="bg-white hover:bg-gray-100 text-teal-700 font-bold py-3 px-8 rounded-full text-lg shadow-md transform hover:scale-105 transition-all duration-300">
+                Contact Our Team
+            </a>
+            <div class="mt-8 text-lg">
+                <p><strong>SOS NETWORK SERVICES (002290507-D)</strong></p>
+                <p>Mobile: 0163231598</p>
+                <p>Email: harudin96@gmail.com</p>
+                <p>Address: 41, JALAN SALUNG 33/26, SHAH ALAM, SELANGOR DARUL EHSAN, MALAYSIA</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-gray-300 py-12 md:py-16">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+            <!-- Footer Column 1: About Us -->
+            <div>
+                <h3 class="text-xl font-semibold text-white mb-4">About SOS Network Services</h3>
+                <p class="text-gray-400 leading-relaxed">
+                    We are dedicated to providing top-tier CCTV services and installation, ensuring safety and peace of mind for our clients.
+                </p>
+            </div>
+
+            <!-- Footer Column 2: Quick Links -->
+            <div>
+                <h3 class="text-xl font-semibold text-white mb-4">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-teal-400 transition-colors duration-300">Home</a></li>
+                    <li><a href="#services" class="hover:text-teal-400 transition-colors duration-300">CCTV Services</a></li>
+                    <li><a href="#job-services" class="hover:text-teal-400 transition-colors duration-300">Job Services</a></li>
+                    <li><a href="#features-support" class="hover:text-teal-400 transition-colors duration-300">Features & Support</a></li>
+                    <li><a href="#about-us" class="hover:text-teal-400 transition-colors duration-300">About Us</a></li>
+                    <li><a href="#projects" class="hover:text-teal-400 transition-colors duration-300">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-teal-400 transition-colors duration-300">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Footer Column 3: Contact Info -->
+            <div id="contact-footer">
+                <h3 class="text-xl font-semibold text-white mb-4">Contact Info</h3>
+                <p class="text-gray-400">
+                    <span class="block mb-2">SOS NETWORK SERVICES (002290507-D)</span>
+                    <span class="block mb-2">Mobile: 0163231598</span>
+                    <span class="block mb-2">Email: harudin96@gmail.com</span>
+                    <span class="block">Address: 41, JALAN SALUNG 33/26, SHAH ALAM, SELANGOR DARUL EHSAN, MALAYSIA</span>
+                </p>
+                <div class="flex justify-center md:justify-start space-x-4 mt-6">
+                    <a href="#" class="text-gray-400 hover:text-teal-400 transition-colors duration-300 text-2xl" aria-label="Facebook">
+                        <!-- Facebook Icon (example SVG) -->
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.053-1.606-.154-3.07-.154-3.021 0-5 1.766-5 5.246V9.5H7.5v4H10v7.085h4V13.5z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-teal-400 transition-colors duration-300 text-2xl" aria-label="Twitter">
+                        <!-- Twitter Icon (example SVG) -->
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.46 6c-.77.34-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.49-1.75.84-2.74 1.02C18.35 4.54 17.2 4 15.96 4c-2.35 0-4.25 1.9-4.25 4.25 0 .33.04.65.11.96C8.7 9.01 5.86 7.5 3.92 5.27c-.36.6-.56 1.3-.56 2.06 0 1.47.75 2.76 1.89 3.52-.7-.02-1.37-.2-1.95-.5v.05c0 2.06 1.47 3.77 3.42 4.15-.36.1-.75.16-1.15.16-.28 0-.55-.03-.81-.08.54 1.7 2.11 2.92 3.97 2.95C14.07 19.18 10.4 20 6.6 20c-.72 0-1.42-.04-2.11-.12C7.39 21.03 10.5 22 13.8 22c4.68 0 7.82-3.4 7.82-7.81 0-.24-.01-.48-.02-.72.53-.38.99-.8 1.36-1.29z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-teal-400 transition-colors duration-300 text-2xl" aria-label="LinkedIn">
+                        <!-- LinkedIn Icon (example SVG) -->
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.447 20.452h-3.554v-5.564c0-1.396-.03-3.197-1.947-3.197-1.95 0-2.247 1.527-2.247 3.096v5.665H9.133V9.245h3.414v1.561h.045c.477-.905 1.637-1.855 3.37-1.855 3.606 0 4.27 2.365 4.27 5.462v6.248zM5.552 7.72c-1.22 0-2.203-.984-2.203-2.203 0-1.217.983-2.201 2.203-2.201 1.218 0 2.202.983 2.202 2.201 0 1.219-.984 2.203-2.202 2.203zm1.772 12.732H3.78V9.245h3.544v11.207zM22.227 0H1.771C.792 0 0 .774 0 1.737v20.526C0 23.227.792 24 1.771 24h20.455c.979 0 1.773-.773 1.773-1.737V1.737C24 .774 23.206 0 22.227 0z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-500 text-sm">
+            &copy; 2024 SOS Network Services. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
